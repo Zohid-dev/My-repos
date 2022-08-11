@@ -3,6 +3,7 @@ let strn = "5"
 let boolt = true
 let boolf = false
 let num = 3
+
 // 1. Perform addition of various types (string + boolean, string + number, number + boolean)
 
 // string + boolean: 
@@ -42,3 +43,11 @@ console.log(strn / num); //returns a number as a number is declared as string
 //number / Boolean
 console.log(num / boolt); //returns 3 as true equals 1
 console.log(num / boolf); //returns Infinity as false equals 0
+
+// 4. Perform explicit conversion (number, string, boolean)
+
+console.log(Number(strn)) //string to number
+console.log(num.toString()) //number to string
+console.log(parseInt(strn)) //string to number
+console.log(boolt.toString()); //boolean to string
+console.log(String(num)); //number to string
