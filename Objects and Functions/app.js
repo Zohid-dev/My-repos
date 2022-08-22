@@ -10,3 +10,20 @@ function powerToCar(a) {
 }
 powerToCar(120)
 console.log(car);
+
+//Part 2 Warehouse
+
+const warehouse = {
+    apples: 5,
+    pears: 7
+}
+
+function adding(apple, pear) {
+    warehouse.apples += apple;
+    warehouse.pears += pear
+    
+}
+
+adding(17, 20)
+
+console.log(warehouse);
