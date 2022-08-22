@@ -44,3 +44,39 @@ function fName(inputName) {
 
 let getInput = prompt("What is your name?")
 fName(getInput)
+
+//Part 4 argument
+
+function arg(a, b, c){
+    console.log(typeof(a));
+    console.log(typeof(b));
+    console.log(typeof(c));
+}
+
+arg("Hello", 5, true)
+
+
+//Part 5 Prime number
+
+function isPrime(inputNumber){
+    
+    if (inputNumber === 1) {
+        console.log(`${inputNumber} is not Prime`);
+        
+        
+    }else if(inputNumber === 2){
+        console.log(`${inputNumber} is Prime`);
+    }else{
+        for (let i = 2; i < inputNumber; i++) {
+            if (inputNumber % i === 0) {
+                
+                console.log(`${inputNumber} is not Prime`);
+            }
+                console.log(`${inputNumber} is Prime`);
+            
+            
+        }
+    }
+}
+let input= +prompt('Enter a number')
+isPrime(input)
