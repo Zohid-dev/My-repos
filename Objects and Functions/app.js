@@ -27,3 +27,20 @@ function adding(apple, pear) {
 adding(17, 20)
 
 console.log(warehouse);
+
+//Part 3 My Name
+
+const user = {
+    firstName: "Zohid"
+}
+
+function fName(inputName) {
+    if(inputName === user.firstName){
+        console.log(`Hello ${user.firstName}`);
+    }else{
+        console.log("There is no such name");
+    }
+}
+
+let getInput = prompt("What is your name?")
+fName(getInput)
