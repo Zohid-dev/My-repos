@@ -30,3 +30,10 @@ let allCars = arrCars.toString()
 let sameCars = allCars.split(",")
 
 console.log(sameCars);
+
+//Task 3 Given an array of the names of your friends, add the words hello to each element of the array
+
+let myFriends = ['Tom', 'Mike', 'Joe']
+let helloToFriends = myFriends.map((currentNumber) => 'Hello ' + currentNumber)
+
+console.log(helloToFriends);
