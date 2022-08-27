@@ -37,3 +37,16 @@ let myFriends = ['Tom', 'Mike', 'Joe']
 let helloToFriends = myFriends.map((currentNumber) => 'Hello ' + currentNumber)
 
 console.log(helloToFriends);
+
+//Task 4 Convert numeric array to Boolean
+
+let arrNum = [1, 0, 1, 0]
+let arrBool = arrNum.map((eachElem) => {
+    if (eachElem === 1) {
+      return eachElem = true   
+    }else{
+        return eachElem = false
+    }
+})
+
+console.log(arrBool);
