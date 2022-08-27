@@ -56,3 +56,9 @@ console.log(arrBool);
 let arr = [1,6,7,8,3,4,5,6]
 let sorting = arr.sort((a, b) => b - a)
 console.log(sorting);
+
+//Task 6 Filter array [1,6,7,8,3,4,5,6] by value> 3
+
+let arr2 = [1,6,7,8,3,4,5,6]
+let filtering = arr2.filter(eachElem => eachElem > 3)
+console.log(filtering);
