@@ -75,3 +75,17 @@ arr3.forEach((num, index) => {
 for(let num = 0; num < 10; num++){
     console.log("a");
 }
+
+//Task 9 Implement a loop that prints prime numbers to the console
+
+for(let number=2 ; number<=20; number++){
+    let isPrime = true;
+
+for (let i=2; i<= number-1;i++){
+    if(number%i===0){
+        isPrime = false;
+        break
+    }
+}
+if (isPrime) console.log(number);
+}
