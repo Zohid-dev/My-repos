@@ -78,14 +78,23 @@ for(let num = 0; num < 10; num++){
 
 //Task 9 Implement a loop that prints prime numbers to the console
 
-for(let number=2 ; number<=20; number++){
+for(let number = 2 ; number <= 10; number++){
     let isPrime = true;
 
-for (let i=2; i<= number-1;i++){
-    if(number%i===0){
+for (let i = 2; i <= number-  1; i++){
+    if(number % i === 0){
         isPrime = false;
         break
     }
 }
 if (isPrime) console.log(number);
+}
+
+//Task 10 Implement a loop that prints odd numbers to the console
+
+for(let numb = 0; numb <= 50; numb++){
+    if (numb % 2 !== 0) {
+        console.log(numb);
+        
+    }
 }
