@@ -70,3 +70,8 @@ arr3.forEach((num, index) => {
     console.log(`In the index of ${index} there is ${num}`);
 })
 
+//Task 8 Implement a loop that will print the number 'a' until it is less than 10
+
+for(let num = 0; num < 10; num++){
+    console.log("a");
+}
