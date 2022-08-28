@@ -62,3 +62,11 @@ console.log(sorting);
 let arr2 = [1,6,7,8,3,4,5,6]
 let filtering = arr2.filter(eachElem => eachElem > 3)
 console.log(filtering);
+
+//Task 7 Write a function that takes two parameters - an array and a number and outputs the index of an array element equal to a number
+
+let arr3 = [1,6,7,8,3,4,5,6]
+arr3.forEach((num, index) => {
+    console.log(`In the index of ${index} there is ${num}`);
+})
+
