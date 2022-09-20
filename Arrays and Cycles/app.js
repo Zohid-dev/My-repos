@@ -40,16 +40,9 @@ console.log(helloToFriends);
 
 //Task 4 Convert numeric array to Boolean
 
-let arrNum = [1, 0, 1, 0]
-let arrBool = arrNum.map((eachElem) => {
-    if (eachElem === 1) {
-      return eachElem = true   
-    }else{
-        return eachElem = false
-    }
-})
-
-console.log(arrBool);
+let num = 5
+let bool = Boolean(num)
+console.log(bool);
 
 //Task 5 Sort the array [1,6,7,8,3,4,5,6] in descending order
 
