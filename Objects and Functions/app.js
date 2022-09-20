@@ -32,15 +32,15 @@ const user = {
 
 function fName(inputName) {
     if(inputName === user.firstName){
-        alert(`Hello ${user.firstName}`);
+        console.log(`Hello ${user.firstName}`);
         //return `Hello ${user.firstName}`
     }else{
-        alert("There is no such name");
+        console.log("There is no such name");
         //return "There is no such name"
     }
 }
 
-let getInput = prompt("What is your name?")
+let getInput = 'Zohid' //'Zokhid'
 fName(getInput)
 
 //Part 4 argument
