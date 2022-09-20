@@ -59,22 +59,24 @@ arg("Hello", 5, true)
 function isPrime(inputNumber){
     
     if (inputNumber === 1) {
-        console.log(`${inputNumber} is not Prime`);
+        return `${inputNumber} is not Prime`;
         
         
     }else if(inputNumber === 2){
-        console.log(`${inputNumber} is Prime`);
+        return `${inputNumber} is Prime`;
     }else{
         for (let i = 2; i < inputNumber; i++) {
             if (inputNumber % i === 0) {
                 
-                console.log(`${inputNumber} is not Prime`);
+                return `${inputNumber} is not Prime`;
             }
-                console.log(`${inputNumber} is Prime`);
+                return `${inputNumber} is Prime`;
             
             
         }
     }
 }
 let input= +prompt('Enter a number')
-isPrime(input)
+
+console.log(isPrime(input));
+alert(isPrime(input))
