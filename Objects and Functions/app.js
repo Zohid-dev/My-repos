@@ -18,15 +18,11 @@ const warehouse = {
     pears: 7
 }
 
-function adding(apple, pear) {
-    warehouse.apples += apple;
-    warehouse.pears += pear
-    
+function adding () {
+   console.log(warehouse.apples + warehouse.pears) 
 }
 
-adding(17, 20)
-
-console.log(warehouse);
+adding()
 
 //Part 3 My Name
 
