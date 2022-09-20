@@ -33,8 +33,10 @@ const user = {
 function fName(inputName) {
     if(inputName === user.firstName){
         alert(`Hello ${user.firstName}`);
+        //return `Hello ${user.firstName}`
     }else{
         alert("There is no such name");
+        //return "There is no such name"
     }
 }
 
