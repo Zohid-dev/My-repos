@@ -5,10 +5,10 @@ const car = {
 }
 car.color = "green"
 
-function powerToCar(a) {
-    car.power = a
+car.power = function (horsepower) {
+    car.power = horsepower
 }
-powerToCar(120)
+car.power(120)
 console.log(car);
 
 //Part 2 Warehouse
